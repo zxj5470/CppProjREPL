@@ -23,6 +23,11 @@ add_executable(CppProjREPL
   Widget.h
   Widget.ui
 
+  # Abstract Layer
+  ReplBridge.h
+  ReplBridge.cpp
+
+  # Classes
   MyLib.h
   MyLib.cpp
 )

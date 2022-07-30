@@ -18,6 +18,7 @@ public:
 private:
     Ui::Widget *ui;
     void* pLua;
+    void* pBridge;
 
     void initLua();
     void bingBridge();

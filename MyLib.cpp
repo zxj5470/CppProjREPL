@@ -8,6 +8,11 @@ MyLib::MyLib()
 
 }
 
+void MyLib::run()
+{
+    MessageBox(0, "new MyLib", "C++ REPL", 0);
+}
+
 void MSMessageBox(const std::string& str1, const std::string& str2)
 {
 #ifdef __MINGW32__

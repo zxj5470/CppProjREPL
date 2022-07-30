@@ -7,6 +7,7 @@ class MyLib
 {
 public:
     MyLib();
+    void run();
 };
 
 void MSMessageBox(const std::string& str1, const std::string& str2);
